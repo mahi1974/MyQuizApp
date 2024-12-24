@@ -1,18 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="Qmcq">
-
+    <!-- Questions -->
+    <string-array name="questions">
+        <item>What is the output of print(2 ** 3)?</item>
+        <item>Which keyword is used to create a function in Python?</item>
+        <item>What is the output of len("Python")?</item>
+        <item>How do you write a comment in Python?</item>
+        <item>What data type is the result of 3 + 4.0?</item>
+        <item>Which of the following is a mutable data type in Python?</item>
+        <item>What does the range(5) function generate?</item>
+        <item>What is the output of print("Python"[-1])?</item>
+        <item>What does the is keyword compare?</item>
+        <item>How do you create a dictionary in Python?</item>
+        <item>What will print(type(10)) output?</item>
+        <item>What is the output of print(bool(""))?</item>
+        <item>Which method is used to remove whitespaces from the start and end of a string?</item>
+        <item>What will print(10 // 3) output?</item>
+        <item>Which of these is used to handle exceptions in Python?</item>
+        <item>What does open(&apos;file.txt&apos;, &apos;w&apos;) do?</item>
+        <item>What will print(2 &gt; 3 or 4 &lt; 5) output?</item>
+        <item>What is the purpose of the pass statement in Python?</item>
+        <item>How do you create a set in Python?</item>
+        <item>What is the result of print(2 * "Python")?</item>
     </string-array>
-    <string-array name="msqA">
 
+    <!-- Option A -->
+    <string-array name="option_A">
+        <item>6</item>
+        <item>fun</item>
+        <item>5</item>
+        <item>//</item>
+        <item>int</item>
+        <item>tuple</item>
+        <item>1, 2, 3, 4, 5</item>
+        <item>P</item>
+        <item>Values</item>
+        <item>{ key: value }</item>
+        <item>&lt;class \'int'&gt;</item>
+        <item>True</item>
+        <item>strip()</item>
+        <item>3</item>
+        <item>try</item>
+        <item>Opens the file for reading</item>
+        <item>True</item>
+        <item>Skips an iteration</item>
+        <item>set = {}</item>
+        <item>PythonPython</item>
     </string-array>
-    <string-array name="mcqB">
 
+    <!-- Option B -->
+    <string-array name="option_B">
+        <item>8</item>
+        <item>def</item>
+        <item>6</item>
+        <item>/* */</item>
+        <item>float</item>
+        <item>int</item>
+        <item>0, 1, 2, 3, 4</item>
+        <item>n</item>
+        <item>Memory locations</item>
+        <item>[ key: value ]</item>
+        <item>&lt;class \'float'&gt;</item>
+        <item>False</item>
+        <item>trim()</item>
+        <item>3.33</item>
+        <item>catch</item>
+        <item>Opens the file for writing</item>
+        <item>False</item>
+        <item>Exits a loop</item>
+        <item>set = ()</item>
+        <item>Error</item>
     </string-array>
-    <string-array name="mcqC">
 
+    <!-- Option C -->
+    <string-array name="option_C">
+        <item>9</item>
+        <item>function</item>
+        <item>7</item>
+        <item>#</item>
+        <item>complex</item>
+        <item>list</item>
+        <item>0, 1, 2, 3, 4, 5</item>
+        <item>Error</item>
+        <item>Data types</item>
+        <item>( key: value )</item>
+        <item>&lt;class \'complex'&gt;</item>
+        <item>None</item>
+        <item>clear()</item>
+        <item>4</item>
+        <item>finally</item>
+        <item>Appends to the file</item>
+        <item>None</item>
+        <item>Acts as a placeholder</item>
+        <item>set = []</item>
+        <item>Python2</item>
     </string-array>
-    <string-array name="mcqD">
 
+    <!-- Option D -->
+    <string-array name="option_D">
+        <item>Error</item>
+        <item>define</item>
+        <item>Error</item>
+        <item>&lt;!-- --&gt;</item>
+        <item>str</item>
+        <item>str</item>
+        <item>1, 2, 3, 4</item>
+        <item>o</item>
+        <item>Lengths</item>
+        <item>&lt; key: value &gt;</item>
+        <item>&lt;class \'number'&gt;</item>
+        <item>Error</item>
+        <item>remove()</item>
+        <item>3.0</item>
+        <item>error</item>
+        <item>Deletes the file</item>
+        <item>Error</item>
+        <item>Continues a loop</item>
+        <item>set = set()</item>
+        <item>4Python</item>
+    </string-array>
+
+    <!-- Correct Answers -->
+    <string-array name="correct_answers">
+        <item>B</item>
+        <item>B</item>
+        <item>B</item>
+        <item>C</item>
+        <item>B</item>
+        <item>C</item>
+        <item>B</item>
+        <item>B</item>
+        <item>B</item>
+        <item>A</item>
+        <item>A</item>
+        <item>B</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>B</item>
+        <item>A</item>
+        <item>C</item>
+        <item>D</item>
+        <item>A</item>
     </string-array>
 </resources>
